@@ -49,6 +49,7 @@ function App() {
       
       if (data.type === 'error') {
         showModal(data.message);
+        setView('home');
         websocket.close();
         return;
       }
