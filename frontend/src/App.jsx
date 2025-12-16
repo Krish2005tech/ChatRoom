@@ -361,7 +361,7 @@ function App() {
       </div>
 
       {/* Input */}
-      <div className={`border-t p-4 ${darkMode ? 'bg-gray-800 border-gray-700' : 'bg-white'}`}>
+      <div className={`sticky bottom-0 z-40 border-t p-4 ${darkMode ? 'bg-gray-800 border-gray-700' : 'bg-white'}`}>
         <div className="max-w-4xl mx-auto flex gap-2">
           <input
             type="text"
