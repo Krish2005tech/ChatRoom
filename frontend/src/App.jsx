@@ -293,7 +293,7 @@ function App() {
   return (
     <div className={`min-h-screen flex flex-col ${darkMode ? 'bg-gray-900' : 'bg-gradient-to-br from-blue-50 to-indigo-100'}`}>
       {/* Header */}
-      <div className={`shadow-md p-4 ${darkMode ? 'bg-gray-800' : 'bg-white'}`}>
+      <div className={`sticky top-0 z-50 shadow-md p-4 ${darkMode ? 'bg-gray-800' : 'bg-white'}`}>
         <div className="max-w-4xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-3">
             <button
